@@ -38,7 +38,7 @@ require 'vendor/autoload.php';
 use MACLookup\MACLookupClient;
 
 require (__DIR__.'/vendor/autoload.php');
-$client = MACLookupClient::getInstance();
+$macLookupClient = MACLookupClient::getInstance();
 
 try {
     $responseMACInfo = $macLookupClient->getMacInfo("000000");
