@@ -1,6 +1,5 @@
 # MACLookup REST API v2 CLIENT
 [![Build Status](https://travis-ci.org/logocomune/maclookup-php.svg?branch=master)](https://travis-ci.org/logocomune/maclookup-php)
-[![Go Report Card](https://goreportcard.com/badge/github.com/logocomune/maclookup-php)](https://goreportcard.com/report/github.com/logocomune/maclookup-php)
 [![codecov](https://codecov.io/gh/logocomune/maclookup-php/branch/master/graph/badge.svg)](https://codecov.io/gh/logocomune/maclookup-php)
 
 
