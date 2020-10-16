@@ -1,0 +1,35 @@
+{
+  "name": "logocomune/maclookup",
+  "description": "PHP client library for maclookup.app REST API V2",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.2",
+    "php" : ">=7.0",
+    "symfony/serializer": "^5.1",
+    "symfony/property-access": "^5.1",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4",
+    "symfony/var-dumper": "^5.1",
+    "phpunit/php-code-coverage": "^9.2",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alessandro Lucaferro",
+      "email": "alessandro.lucaferro@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MACLookup\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MacLookup\\Tests\\": "tests/"
+    }
+  }
+}
